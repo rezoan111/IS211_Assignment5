@@ -1,14 +1,14 @@
 # IS211 Assignment 5
 # This program will simulate network requests
-# First I will do one server simulation
-# Then I will do multiple server simulation
-# Main part will read the arguments from command line
 
 # Request class
-# This class will store request time, file path, and processing time
+# This class will store one request from the csv file
+# It will save request time
+# It will save file path
+# It will save processing time
 
 # Server class
-# This class will handle the current request and processing time left
+# This class will handle current request and time left
 
 # One server simulation
 # This part will read the csv file
