@@ -7,6 +7,13 @@
 # It will save file path
 # It will save processing time
 
+class Request:
+    # This will save one request data
+    def __init__(self, time, file_path, process_time):
+        self.time = time
+        self.file_path = file_path
+        self.process_time = process_time
+      
 # Server class
 # This class will handle current request and time left
 
